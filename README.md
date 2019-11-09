@@ -3,7 +3,7 @@
 ## A small cutie that is here to help you with your medical needs!!!
 
 
-[CutieMD Link](cutiemd.xyz)
+[CutieMD Link](cutiemd.herokuapp.com)
 
 
 
