@@ -1,0 +1,22 @@
+{
+  "name": "CutieMD",
+  "version": "1.0.0",
+  "description": "A bot that let's you ask for minor medical advice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexistaana/Project-Cutie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexistaana/Project-Cutie/issues"
+  },
+  "homepage": "https://github.com/alexistaana/Project-Cutie#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
