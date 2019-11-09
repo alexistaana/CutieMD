@@ -1,0 +1,14 @@
+.midBox{
+  width: 60%;
+  height: 500px;
+  margin: 50% auto;
+  text-align: center;
+  border: solid black;
+  border-radius: 4px;
+}
+
+#tangerine{
+  margin-top: 20px;
+  height: 32%;
+  width: 30%;
+}
