@@ -1,5 +1,5 @@
 {
-  "name": "CutieMD",
+  "name": "project-cutie",
   "version": "1.0.0",
   "description": "A bot that let's you ask for minor medical advice",
   "main": "server.js",
