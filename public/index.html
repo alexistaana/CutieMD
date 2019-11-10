@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    <link href="index.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="chatBox.css" />
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40f80a8f17.js" crossorigin="anonymous"></script>
     <title>CutieMD</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class=""></div>
 
-    <div class="">
+    <div id="midBox">
 
+      <!-- IMAGE BOX -->
+      <div id="imgBox">
+          <img id="tangerine" src="./img/tangerine.png" alt="A CUTIE!!!" />
+      </div>
+            
+      <!-- CHAT BOX -->
+      <div id="chatBox">
+        <div id="inputLogs">
+            <div class="chatArea cutie">
+                <p class="chatmsg">Hi! I'm Cutie MD, please tell me your illness!</p>
+            </div>
+
+            <div class="chatArea you">
+                <p class="chatmsg">Hi! I have a major case of the tum tums :( Can you help me Dr. Cutie?</p>
+            </div>
+            <div class="chatArea cutie">
+                <p class="chatmsg">Of course I can! Please tell me your symptoms :)!</p>
+            </div>
+
+        </div>
+
+        <div id="inputForm">
+            <textarea name="" id="msgForm" cols="30" rows="10"></textarea>
+            <i class="fas fa-arrow-alt-circle-up" id="sendButton"></i>
+            <!-- <i class="fas fa-arrow-circle-right" id="sendButton"></i> -->
+        </div>
+      </div>
     </div>
+  </body>
 
-    <div class="midBox">
-        <img id="tangerine" src="./img/tangerine.png" alt="A CUTIE!!!">
-        <h1>How can I help you today?</h1>
-    </div>
-
-</body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<!-- <script type="text/javascript" src="/javascript/app.js"></script> -->
-
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <!-- <script type="text/javascript" src="/javascript/app.js"></script> -->
 </html>

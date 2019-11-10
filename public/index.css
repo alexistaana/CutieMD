@@ -1,14 +1,24 @@
-.midBox{
-  width: 60%;
-  height: 500px;
-  margin: 50% auto;
+body {
+  background: #e3a70e;
+  font-family: "McLaren", cursive;
+}
+
+#midBox {
+  width: 35%;
+  height: 50%;
+  margin: 5% auto;
   text-align: center;
   border: solid black;
   border-radius: 4px;
+  background: #99cccc;
+  /* box-shadow: 0 5px black; */
 }
 
-#tangerine{
+/* #imgBox{
+  background: #99CCCC;
+} */
+
+#tangerine {
   margin-top: 20px;
-  height: 32%;
-  width: 30%;
+  height: 270px;
 }
