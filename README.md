@@ -2,20 +2,28 @@
 
 ## A small cutie that is here to help you with your medical needs!!!
 
+## Live app link
+http://cutiemd.xyz
 
-[CutieMD Link](cutiemd.herokuapp.com)
+## Inspiration
+Have you ever been at home feeling really sick but not really knowing what to do about it? We did too, which is why
+we believe CutieMD is a simple solution for your needs!
 
+## What did we create?
+An adorable little cutie who listens to what kind of illnesses you have, and offers solutions based on the urgency of your situation!
 
+## How we built it.
+WebMD is built as a web application built with HTML and JavaScript.
 
+## Challenges we ran into
+We incorporated a Natural Language Tool Kit library in python for sentiment handling but ran into difficulties
+with calling a python script from javascript and retrieving the data back in the web application.
 
+## What we have in store for CutieMD
+Greater versatility in illnesses that CutieMD can handle, incorporation of a Medical API for symptom diagnosing,
+and an option for livechat with a medical professional (medical professional not included).
 
+## Built with:
+Javascript, CSS, HTML, NodeJS
 
-Notes:
-- Medical symptoms will need to match as many similar words / ideas as possible & group it as a percentage
-=> fatigue, fatigues, tired, tire, weak, etc.
-
-
-- Groups of ideas may need to break down internally, 
-	e.g. if flu is a symptom, we may need to internally see how much % of a flu that person has
-		those symptoms will relate to flu, and if it's high enough / passes a threshold, then apply
-
+Submodule(s): Express
