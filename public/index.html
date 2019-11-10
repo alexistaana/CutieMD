@@ -11,8 +11,6 @@
     <title>CutieMD</title>
   </head>
   <body>
-    <div class=""></div>
-
     <div id="midBox">
 
       <!-- IMAGE BOX -->
@@ -24,27 +22,24 @@
       <div id="chatBox">
         <div id="inputLogs">
             <div class="chatArea cutie">
-                <p class="chatmsg">Hi! I'm Cutie MD, please tell me your illness!</p>
-            </div>
-
-            <div class="chatArea you">
-                <p class="chatmsg">Hi! I have a major case of the tum tums :( Can you help me Dr. Cutie?</p>
-            </div>
-            <div class="chatArea cutie">
-                <p class="chatmsg">Of course I can! Please tell me your symptoms :)!</p>
+                <p class="chatmsg">Hi! I'm Cutie MD, please tell me if you think you have a cold, fever, or headache.</p>
             </div>
 
         </div>
 
-        <div id="inputForm">
-            <textarea name="" id="msgForm" cols="30" rows="10"></textarea>
-            <i class="fas fa-arrow-alt-circle-up" id="sendButton"></i>
-            <!-- <i class="fas fa-arrow-circle-right" id="sendButton"></i> -->
-        </div>
+        <form action="#" id="inputForm">
+            <input type="text" name="message" placeholder="OMG Cutie, you're so smart!..." id="msgForm">
+            <button  id="sendButton">
+                <i class="fas fa-arrow-alt-circle-up" id="arrowImg"></i>
+            </button>
+        </form>
       </div>
     </div>
+
+    <!-- <div id="videoFeed">Need Live Assistance? Click Here!</div> -->
   </body>
 
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="app.js"></script>
   <!-- <script type="text/javascript" src="/javascript/app.js"></script> -->
 </html>

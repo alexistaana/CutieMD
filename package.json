@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alexistaana/Project-Cutie#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nltk": "0.0.1"
   }
 }

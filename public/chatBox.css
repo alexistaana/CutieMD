@@ -23,6 +23,7 @@
     box-shadow: 4px 4px 3px #888888;
     font-size: 15px;
     padding: 2% 5% 2% 5%;
+    width: 80%;
 }
 
 .chatmsg{
@@ -67,7 +68,7 @@
 #sendButton{
     color: #88d37f;
     background: #5d8d57;
-    border-radius: 30px;
+    border-radius: 100%;
     border: solid #5d8d57;
     font-size: 65px;
     margin-left: 10px;
@@ -78,7 +79,7 @@
     cursor: pointer;
     color: #5d8d57;
     background: #88d37f;
-    border-radius: 30px;
+    border-radius: 100%;
     border: solid #88d37f;
     border: 1px;
 }
