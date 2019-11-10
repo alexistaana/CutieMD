@@ -35,7 +35,8 @@
 }
 
 .you{
-    background: #598654;
+    /* background: #598654; */
+    background: #88d37f;
     float: right;
 }
 
@@ -64,12 +65,20 @@
 }
 
 #sendButton{
-    color: #598654;
+    color: #88d37f;
+    background: #5d8d57;
+    border-radius: 30px;
+    border: solid #5d8d57;
     font-size: 65px;
     margin-left: 10px;
+    border: 1px;
 }
 
 #sendButton:hover{
     cursor: pointer;
     color: #5d8d57;
+    background: #88d37f;
+    border-radius: 30px;
+    border: solid #88d37f;
+    border: 1px;
 }
